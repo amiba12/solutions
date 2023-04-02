@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+div{
+ 
+    
+    position: relative;
+    
+}
+
+p{
+    
+    margin-bottom: 10px;
+    
+
+}
+.div{
+    border: 2px solid black;
+    width: 90%;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    background-color: rgb(157, 152, 152);
+
+}
+.item1{
+    border: 2px solid black;
+    width: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color:rgb(224, 155, 167) ;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item2{
+    border: 2px solid black;
+    width: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color:rgb(234, 43, 43) ;
+    color: white;
+    font-weight: bold;
+}
+.item3{
+    border: 2px solid black;
+    width: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color:rgb(218, 218, 27);
+    font-weight: bold;
+}
+p.text{
+    margin-top:35px;
+    padding: 0 10px 0 10px;
+}
+
+.row{
+    width: 100%;
+}
+@media (min-width:992px){
+    .col-lg-4{
+        float: left;
+    }
+    .col-lg-4{
+        width: 33.3%;
+        
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-12{
+        float: left;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }  
+    .col-md-12 > .div{
+        width: 95%;
+
+    }
+
+
+}
+@media (max-width:767px){
+    .col-sm-12{
+        float: left;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    .div{
+        margin-bottom: 15px;
+    }
+
+}
